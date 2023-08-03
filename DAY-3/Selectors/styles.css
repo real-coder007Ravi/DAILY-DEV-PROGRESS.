@@ -1,0 +1,24 @@
+/* *{
+    font-family: fantasy;
+} */
+.purple{
+    color:green; 
+    font-family: monospace;
+}
+.highlight{
+    background-color: goldenrod;
+    font-weight: 100;
+    font-style:italic;
+}
+#first,#second{
+    color:red;
+}
+p:hover{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+#third{
+    color: darkgreen;
+}
+/* #first>p{
+    color:chartreuse
+} */
