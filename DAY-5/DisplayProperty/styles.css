@@ -1,0 +1,33 @@
+* { 
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    width:50%;
+    display: inline-block;
+    color: aqua;
+}
+a{
+    display: block;
+    width: 600px;
+}
+ul{
+    text-align: right;
+    list-style:none;
+    padding: 30px;
+    background-color:black;
+    color:red
+}
+li{
+    display: inline;
+    padding: 20px;
+}
+li:hover{
+    color: violet;
+    cursor:pointer;
+}
