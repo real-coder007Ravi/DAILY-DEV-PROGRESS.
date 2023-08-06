@@ -1,0 +1,51 @@
+ *{
+    box-sizing: border-box;
+ }
+ .container{
+    border: 2px solid red;
+   display: none;
+ }
+ .block1{
+    overflow: auto;
+ }
+ .p1{
+   border: 2px solid green;
+   margin-right: 100px;;
+    clear:left;
+ }
+ .image1{
+    float: right;
+    margin-left: 40px; ;
+ }
+ .image2{
+    float:left;
+ }
+ .p2{
+    clear:both;
+ }
+ .bigbox{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+ }
+ .box{
+      height:100px;
+      width:100px;
+      border: 2px solid red;
+      overflow: auto;
+ }
+ .b1{
+    background-color: red;
+    float: left;
+ }
+ .b2{
+    background-color: aqua;
+    float: left;
+ }
+ .b3{
+    background-color: blue;
+    float: left;
+ }
+ .b4{
+    background-color: cadetblue;
+ }
