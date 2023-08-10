@@ -1,0 +1,30 @@
+.box {
+  margin: 100px auto;
+  width: 200px;
+  height: 200px;
+  background-color: teal;
+  transition-duration: 0.3s ;
+  transition-property: all ;
+  transition-delay: 0.1s;
+  transition-timing-function: cubic-bezier();
+}
+.box:hover{
+    background-color: rgb(153, 5, 5);
+    border-radius: 50%;
+}
+.list{
+    display: flex;
+    gap:20px;
+    list-style: none;
+}
+.item{
+    font-size: 2rem;
+    padding: 8px 16px;
+    transition: 0.3s ease-in;
+}
+.item:hover{
+    cursor: pointer;
+    background-color: burlywood;
+    color:white;
+    translate: translateY(45deg);
+}

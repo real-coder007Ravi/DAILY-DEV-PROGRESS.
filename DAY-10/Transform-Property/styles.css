@@ -1,0 +1,24 @@
+.container {
+  width: 400px;
+  height: 400px;
+  margin: 80px auto;
+  background-color: blue;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  background-color: brown;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(40deg);
+   /* transform: scaleZ(2); */
+  /* transform: skew(0deg,20deg); */
+  /* transform: translate(20px,-40px);*/
+  transition: 0.5s ease;
+  transform-origin:100px 20px;
+}
+.box:hover{
+    transform: rotate(45deg);
+}
