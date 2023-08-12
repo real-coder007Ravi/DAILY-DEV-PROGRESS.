@@ -1,0 +1,23 @@
+.container {
+  background-color: teal;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 450px;
+  row-gap: 10px;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+}
+.round-border{
+    border-radius: 50%;
+    border:5px solid black;
+}
