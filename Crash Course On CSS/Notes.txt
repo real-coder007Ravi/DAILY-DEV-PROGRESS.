@@ -1,0 +1,20 @@
+1.Understanding  CSS- styling website ✅
+2.Making CSS File- ✅
+3.Understanding Linking- ✅
+4.CSS Boilerplate- ✅
+5.Understanding CSS Writing Way- ✅
+6.Understanding width,height-✅
+7.Understanding units,px(fixed-thoda sa) and %(respect me btana & bhag lena hahte ho)-✅
+8.Understanding margin padding-✅(Margin do elemnets ke beech me space)+(padding ek hi elmenet me space)
+9. Understanding Background image and things related to it- background-image: url(https://plus.unsplash.com/premium_photo-1674581220087-d4ee95c5cc3f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+   background-size: cover; 
+    /* Puri Screen cover karlega warna screen me hi dusri image chalu ho jayegi */
+   background-position: bottom;
+     /* Kaunsa part image ka dikhana chahte ho */  -✅
+10.Understanding position absolute-Agar kisi ko absolue bnate ho to uska left,right,bottom,top sabko change kr sakte ho wo puri screen ke size ke according hota hai
+Whin agar kisi ke relative krdo bade wale ko aur ander wale ko jisko change krna chahte ho to wo kr sakte ho
+CHANGE TO HOGA HI PAR WO SCREEN KE RESPECT ME HOGA AGAR ABSOLUE HAI, TO LEKIN AGAR BAHAR WALA REALTIVE HAI TO ANDAR WALA ABSOLUE HAI TO CHANGE HOGA PAR WO BXO KE ANDAR HI RHEGA BAHAR NHI JAYEGA- ✅
+11.Understanding Flexbox- Sabko aas pass lane ke liye parent me display:flex kardo taki saare element saath me aa jayegi
+justify content -width
+align-items-height
+=> justify-content: space-between;   //beech me space
