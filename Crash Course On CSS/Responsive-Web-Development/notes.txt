@@ -1,0 +1,35 @@
+* Responsive Web Development Using HTML and CSS
+How Our website responds according to the device
+-->Understanding units
+          -px -Fixed but pixels changes according to the screen size
+          -% -parent ke relative me 
+          -vw(viewport width),vh (viewport height)s-parent ki size pe mat depend karo balki screen size ke upar karo depend
+          -vmax, vmin -jo bhi  maximum hai viewport maximum viewport minimum
+        
+          -em(emphemeral unit),rem - parent ka jo bhi font-size hai uska guna jaise agar 1 hai to 30 ho jayega do hai to 60 ho jayega
+          Parent depenedent
+          -rem(root)->screen ki size ke according
+          1 rem-16pixel
+
+-->Layout of website and Flexbox
+         -absolute vs flex?
+         display parent ke flex kardo taki elements side by side aa jaye aur justify content se x axis pe align hoga and align items se y axis pe align hoga 
+         jab inki screen size chhoti hogi  to ye sab ek dusre ke upar aa jayenge to usse bachne ke liye
+         parent me flex-wrap:wrap dedo taki wo dono jab itni pass aa jaye ki fit na ho paye to ek dure ke niche aa jayenge
+                 A B 
+               //After flex wrap on screen sizing becoming improper
+                 A   
+                 B   
+        flex-direction:column se saare elements vertically aane lagenge
+
+-->CSS MEDIA QUERIES
+       -min height ,min width
+       -max height,max width
+
+Keep points to keep in mind to make website Responsive
+     1.CSS Flexbox
+     2.CSS units
+     3.Responsive TYPOGRAPHY
+     4.Mobile First Approach
+     5.Flexible Images and MEDIA
+//Practice Prctice Practice

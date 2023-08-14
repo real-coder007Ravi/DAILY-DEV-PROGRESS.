@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: royalblue;
+  border: 2px solid #000;
+}
+/* Small Devices Like Mobile Phones */
+@media (max-width: 600px) {
+    .box{
+        background-color: red;
+        border-radius: 50%;
+    }
+}
+/* .parent{
+    height: 100%;
+    width:100%;
+    background-color: lightblue;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    /* flex-wrap: wrap; */
+/* flex-direction: column; */
+/* }
+.child-1{
+    height:500px;
+    width: 500px;
+    background-color: antiquewhite;
+    border:2px solid red;
+} */
+/* .child-2{
+    height:500px;
+    width: 500px;
+    background-color: crimson;
+    border:2px solid black;
+} */
+/* .child-3{
+    height:500px;
+    width: 500px;
+    background-color: purple;
+    border:2px solid plum;
+/* } */
+/* 
+#box {
+  height: 500px;
+  width: 500px;
+  background-color: crimson;
+}
+#inner {
+  height: 50vh;
+  width: 50vw;
+  background-color: royalblue;
+}
+h1 {
+  font-size: 7vmax;
+}
+#parent {
+  background-color: #dadada;
+  width: 40%;
+  font-size: 30px;
+}
+h1 {
+  font-size: 100rem;
+}
+h2 {
+  font-size: 12rem;
+}
+h3 {
+  font-size: 6rem;
+} */
